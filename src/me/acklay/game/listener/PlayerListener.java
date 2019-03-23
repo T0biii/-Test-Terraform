@@ -65,9 +65,9 @@ public class PlayerListener implements Listener{
 	@EventHandler
 	public void onPlace(BlockPlaceEvent e){
 		Player p = e.getPlayer();
-		//Level für BlockPlace
+		//Level fÃ¼r BlockPlace
 		int i = 0;
-		i = i + 1;
+		i++;
 		p.setLevel(i);
 		//Block wechseln
 		Block b = e.getBlock();
